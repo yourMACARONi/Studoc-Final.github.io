@@ -143,5 +143,9 @@ li, a, button{
       font-size: 35px;
     }
 
+    .icon li a {
+      color: #b9b9b9;
+    }
+
 
   
