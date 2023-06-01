@@ -37,7 +37,7 @@
 
 /* this is the button */
 .logo button{
-    width: 115px;
+    width: 100px;
     height: 30px;
     margin-top: 0%;
     /* space of the text */
@@ -53,7 +53,7 @@
     background-color: rgba(47, 4, 2, 0.8);
 }
 
-/* added rh.html header design*/
+/* button*/
 li, a, button{
     font-family: "montserrat", sans-serif;
     font-weight: 500;
@@ -128,5 +128,20 @@ li, a, button{
       line-height: 0.3;
 
     }
+
+    .icon ul li {
+      color: white;
+      float: left;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .icon a {
+      width: 60px;
+      overflow: auto;
+      font-size: 35px;
+    }
+
 
   
