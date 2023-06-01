@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:wght@500;700&family=Open+Sans&family=Poppins:wght@500;800&display=swap');
+
+* {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  /* header container */
+  .container {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.418);
+  }
+
+  /* The Logo */
+  .logo {
+    width: 170px;
+    color: #e4e4e4;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* this is the button */
+.logo button{
+    width: 115px;
+    height: 30px;
+    margin-top: 0%;
+    /* space of the text */
+    margin-left: 1150px;
+    background-color: rgb(177, 41, 7);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+/* this is the button color and animation */
+.logo button:hover{
+    background-color: rgba(47, 4, 2, 0.8);
+}
+
+/* added rh.html header design*/
+li, a, button{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+
+  /* The background */
+  .background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .background {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .background {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+
+  /* Profile picture */
+.image  {
+    padding: none;
+    height: 80vh;
+    margin-top: 150px;
+  }
+
+    /* lower container */
+    .container2 {
+      position: fixed;
+      width: 100%;
+      height: 270px;
+      top: 522px;
+      right: 1100px;
+      background-color: rgba(0, 0, 0, 0.971);
+      z-index: -1;
+
+    }
+
+     /* lower container */
+     .container3 {
+      position: fixed;
+      width: 100%;
+      height: 270px;
+      top: 522px;
+      left: 494px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.497);
+      z-index: -1;
+      text-align: justify;
+      letter-spacing: 3px;
+      text-decoration: none;
+
+    }
+
+    .container3 h1, h3, p {
+      color: rgba(255, 255, 255, 0.79);
+      margin-left: 10px;
+      line-height: 0.3;
+
+    }
+
+  
